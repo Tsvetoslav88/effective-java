@@ -1,7 +1,8 @@
 package chapter2.item8;
 
 
-import sun.misc.Cleaner;
+
+import java.lang.ref.Cleaner;
 
 // An autocloseable class using a cleaner as a safety net (Page 32)
 public class Room implements AutoCloseable {
